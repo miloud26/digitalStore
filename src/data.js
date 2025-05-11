@@ -1,5 +1,3 @@
-import img from "./img/adve002.png";
-
 export const data = [
   [
     { service: "facebook" },

@@ -44,7 +44,7 @@ const Singin = () => {
       }, 3000);
     } else {
       getUser(email).then(async (content) => {
-        if (content.length != 0) {
+        if (content.length !== 0) {
           setUserExiste(true);
           setTimeout(() => {
             setUserExiste(false);
