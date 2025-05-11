@@ -112,13 +112,10 @@ export const makePyment = async (title, price, img, quantity, service) => {
           formData.append("total", price * quantity * 250);
           formData.append("img", img);
 
-          await fetch(
-            `https://script.google.com/macros/s/AKfycbzGSxcnOGMCnenpppp8IH6SEI71Vyb1sGdLrKLn9D4eCpwIJYNGPrv7-cKjUpkLHA4rRw/exec`,
-            {
-              method: "POST",
-              body: formData, // لا تضيف Content-Type هنا!
-            }
-          );
+          await fetch(`${process.env.REACT_APP_GET_ORDER2SHEET}`, {
+            method: "POST",
+            body: formData, // لا تضيف Content-Type هنا!
+          });
         } catch (error) {
           console.log(error);
         }
