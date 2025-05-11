@@ -114,7 +114,14 @@ export const makePyment = async (title, price, img, quantity, service) => {
 
                 await fetch(`${process.env.REACT_APP_GET_ORDER2SHEET}`, {
                   method: "POST",
-                  body: formData,
+                  body: JSON.stringify({
+                    date: new Date().getTime(),
+                    id: localStorage.getItem("id"),
+                    title: title,
+                    quantity: quantity,
+                    total: price * 250 * quantity,
+                    img: `${process.env.REACT_APP_DIGITALDZ}${img}`,
+                  }),
                 });
               } catch (error) {
                 console.log(error);
