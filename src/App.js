@@ -37,16 +37,9 @@ const App = () => {
         <Box
           id="container"
           sx={{
-            padding: "0px 80px 80px 120px",
             width: "100%",
             overflowY: "auto",
             height: "100vh",
-            "@media(max-width:900px)": {
-              paddingLeft: "40px",
-            },
-            "@media(max-width:600px)": {
-              padding: "60px 6px",
-            },
           }}
         >
           <Routes>

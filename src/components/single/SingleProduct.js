@@ -37,7 +37,7 @@ const SingleProduct = () => {
           paddingLeft: "40px",
         },
         "@media(max-width:600px)": {
-          padding: "60px 6px",
+          padding: "60px 6px 90px",
         },
       }}
     >
@@ -365,7 +365,7 @@ const SingleProduct = () => {
               textAlign: "center",
             }}
           >
-            Befort doing anything , please contact us via Telegram. @method_fb
+            Befort doing anything , please contact us via Telegram. @Digital_dz
           </Typography>
         </Box>
       ) : (
@@ -383,18 +383,39 @@ const SingleProduct = () => {
         }
       >
         <Typography
-          sx={{ marginTop: "22px", fontSize: "22px", fontWeight: "bold" }}
+          sx={{
+            marginTop: "22px",
+            fontSize: "22px",
+            fontWeight: "bold",
+            "@media(max-width:700px)": {
+              marginTop: "0px",
+              fontSize: "20px",
+            },
+          }}
         >
           For more information
         </Typography>
-        <Typography sx={{ marginTop: "22px", fontSize: "18px" }}>
+        <Typography
+          sx={{
+            marginTop: "22px",
+            fontSize: "18px",
+            "@media(max-width:700px)": {
+              fontSize: "17px",
+            },
+          }}
+        >
           Seller : Digital DZ
         </Typography>
-        <Typography sx={{ marginTop: "22px", fontSize: "18px" }}>
-          Telegram : +@method_fb
-        </Typography>
-        <Typography sx={{ marginTop: "22px", fontSize: "18px" }}>
-          Email : user@digital.com
+        <Typography
+          sx={{
+            marginTop: "22px",
+            fontSize: "18px",
+            "@media(max-width:700px)": {
+              fontSize: "17px",
+            },
+          }}
+        >
+          Telegram : @Digital_dz
         </Typography>
       </Box>
       <Box
@@ -406,7 +427,7 @@ const SingleProduct = () => {
         textAlign={"center"}
         borderRadius={"8px"}
       >
-        <Box>
+        <Box marginTop={"25px"}>
           <Link target="_blank" to="/privacy">
             <Button
               variant="contained"
@@ -417,6 +438,9 @@ const SingleProduct = () => {
                 background: "#0dffd8",
                 color: "#000",
                 marginRight: "12px",
+                "@media(max-width:700px)": {
+                  marginBottom: "10px",
+                },
               }}
             >
               Privacy Policy
@@ -426,12 +450,16 @@ const SingleProduct = () => {
             <Button
               variant="contained"
               sx={{
+                "@media(max-width:700px)": {},
                 "&:hover": {
                   background: "#f2f2ff",
                 },
                 background: "#0dffd8",
                 color: "#000",
                 marginRight: "12px",
+                "@media(max-width:700px)": {
+                  marginBottom: "10px",
+                },
               }}
             >
               Return Policy

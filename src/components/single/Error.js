@@ -15,6 +15,9 @@ const Error = () => {
         color: "blue",
         textAlign: "center",
         padding: 3,
+        "@media(max-width:1900px)": {
+          paddingBottom: "100px",
+        },
       }}
     >
       <Box

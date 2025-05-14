@@ -101,13 +101,10 @@ const Dashboard = () => {
     <Box
       className="dashboard maxHeight"
       sx={{
-        paddingTop: "50px",
+        padding: "0px 80px 80px 120px",
+
         "@media(max-width:900px)": {
-          paddingTop: "100px",
-          paddingLeft: "40px",
-        },
-        "@media(max-width:600px)": {
-          padding: "100px 6px",
+          padding: "2px 2px 70px 2px",
         },
       }}
     >
@@ -268,15 +265,6 @@ const Dashboard = () => {
                   "@media(max-width:1400px)": {
                     fontSize: "19px",
                   },
-                  "@media(max-width:1100px)": {
-                    fontSize: "17px",
-                  },
-                  "@media(max-width:900px)": {
-                    fontSize: "15px",
-                  },
-                  "@media(max-width:700px)": {
-                    fontSize: "13",
-                  },
                 }}
               >
                 All Sales
@@ -287,16 +275,6 @@ const Dashboard = () => {
 
                   "@media(max-width:1500px)": {
                     fontSize: "15",
-                  },
-                  "@media(max-width:1400px)": {
-                    fontSize: "13px",
-                  },
-                  "@media(max-width:1100px)": {
-                    fontSize: "11px",
-                  },
-
-                  "@media(max-width:700px)": {
-                    fontSize: "9px",
                   },
                 }}
               >
@@ -347,15 +325,6 @@ const Dashboard = () => {
                   "@media(max-width:1400px)": {
                     fontSize: "19px",
                   },
-                  "@media(max-width:1100px)": {
-                    fontSize: "17px",
-                  },
-                  "@media(max-width:900px)": {
-                    fontSize: "15px",
-                  },
-                  "@media(max-width:700px)": {
-                    fontSize: "13",
-                  },
                 }}
               >
                 Weekly Sales
@@ -366,16 +335,6 @@ const Dashboard = () => {
 
                   "@media(max-width:1500px)": {
                     fontSize: "15",
-                  },
-                  "@media(max-width:1400px)": {
-                    fontSize: "13px",
-                  },
-                  "@media(max-width:1100px)": {
-                    fontSize: "11px",
-                  },
-
-                  "@media(max-width:700px)": {
-                    fontSize: "9px",
                   },
                 }}
               >
@@ -432,15 +391,6 @@ const Dashboard = () => {
                   "@media(max-width:1400px)": {
                     fontSize: "19px",
                   },
-                  "@media(max-width:1100px)": {
-                    fontSize: "17px",
-                  },
-                  "@media(max-width:900px)": {
-                    fontSize: "15px",
-                  },
-                  "@media(max-width:700px)": {
-                    fontSize: "13",
-                  },
                 }}
               >
                 Daily Sales
@@ -451,16 +401,6 @@ const Dashboard = () => {
 
                   "@media(max-width:1500px)": {
                     fontSize: "15",
-                  },
-                  "@media(max-width:1400px)": {
-                    fontSize: "13px",
-                  },
-                  "@media(max-width:1100px)": {
-                    fontSize: "11px",
-                  },
-
-                  "@media(max-width:700px)": {
-                    fontSize: "9px",
                   },
                 }}
               >

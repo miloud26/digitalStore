@@ -13,7 +13,7 @@ const SideBarCard = ({ Icon, link, name, open }) => {
       sx={{
         "@media(max-width:900px)": {
           justifyContent: "start",
-          marginLeft: "20px",
+          marginLeft: "6px",
         },
       }}
     >
@@ -23,6 +23,7 @@ const SideBarCard = ({ Icon, link, name, open }) => {
           color: "white",
           fontSize: "28px",
           "@media(max-width:900px)": {
+            margin: "2px 6px 0px 0px",
             display: `${open ? "block" : "none"}`,
           },
         }}

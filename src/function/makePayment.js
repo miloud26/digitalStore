@@ -2,7 +2,7 @@ import { sendNotification } from "./telegranBot.js";
 
 export const makePyment = async (title, price, img, quantity, service) => {
   try {
-    const res = await fetch(`${process.env.REACT_APP_CHARGILY_PRODUCT}`, {
+    const res = await fetch(`${process.env.REACT_APP_CHARGILY}/products`, {
       method: "POST",
       headers: {
         Authorization: `Bearer ${process.env.REACT_APP_CHARGILY_TOKEN}`,
@@ -12,7 +12,7 @@ export const makePyment = async (title, price, img, quantity, service) => {
     });
     const data = await res.json();
 
-    const res1 = await fetch(`${process.env.REACT_APP_CHARGILY_PRICE}`, {
+    const res1 = await fetch(`${process.env.REACT_APP_CHARGILY}/prices`, {
       method: "POST",
       headers: {
         Authorization: `Bearer ${process.env.REACT_APP_CHARGILY_TOKEN}`,
@@ -24,7 +24,7 @@ export const makePyment = async (title, price, img, quantity, service) => {
     });
     const data1 = await res1.json();
 
-    const res2 = await fetch(`${process.env.REACT_APP_CHARGILY_CHECKOUT}`, {
+    const res2 = await fetch(`${process.env.REACT_APP_CHARGILY}/checkouts`, {
       method: "POST",
       headers: {
         Authorization: `Bearer ${process.env.REACT_APP_CHARGILY_TOKEN}`,

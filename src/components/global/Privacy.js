@@ -4,7 +4,7 @@ const PrivacyPolicy = () => {
   return (
     <Container maxWidth="md">
       <Box sx={{ py: 6 }}>
-        <Typography variant="h3" sx={{ fontWeight: "bold", mb: 3 }}>
+        <Typography variant="h4" sx={{ fontWeight: "bold", mb: 3 }}>
           Privacy Policy
         </Typography>
 
@@ -60,8 +60,14 @@ const PrivacyPolicy = () => {
         <Typography>
           If you have any questions about this policy, please contact us on
           Telegram:{" "}
-          <Link href="https://t.me/Method_fb" underline="hover">
-            @Method_fb
+          <Link
+            style={{ color: "#000" }}
+            href="https://t.me/Digital_dz"
+            underline="hover"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            @Digital_dz
           </Link>
         </Typography>
       </Box>

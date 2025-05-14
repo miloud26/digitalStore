@@ -130,8 +130,7 @@ const Orders = () => {
       <Box
         overflow={"hidden"}
         sx={{ overflowX: "auto" }}
-        paddingTop="90px"
-        paddingLeft="5px"
+        padding={"50px 5px 30px"}
       >
         <Box
           padding={3}
@@ -154,7 +153,7 @@ const Orders = () => {
             pagination
             rowHeight={85}
             sx={{
-              height: "803px",
+              height: "690px",
               padding: "22px",
               paddingBottom: "0",
               backgroundColor: ``,

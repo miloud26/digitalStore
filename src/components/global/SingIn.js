@@ -167,6 +167,9 @@ const Singin = () => {
               boxShadow: 24,
               p: 4,
               borderRadius: "4px",
+              "@media(max-width:700px)": {
+                width: "100%",
+              },
             }}
           >
             <Typography
@@ -176,6 +179,11 @@ const Singin = () => {
                 fontWeight: "bold",
                 marginBottom: "25px",
                 lineHeight: "50px",
+                "@media(max-width:700px)": {
+                  lineHeight: "25px",
+                  fontWeight: "normal",
+                  fontSize: "15px",
+                },
               }}
             >
               Please check your email by entering the verification code.{" "}
@@ -203,7 +211,7 @@ const Singin = () => {
                 marginTop: "25px",
                 fontWeight: "600",
                 fontSize: "15px",
-                padding: "12px 12px",
+
                 color: "#fff",
                 background: "blue",
               }}
@@ -261,7 +269,7 @@ const Singin = () => {
               <Typography
                 variant="h2"
                 sx={{
-                  fontSize: "32px",
+                  fontSize: "31px",
                   fontWeight: "700",
                   marginBottom: "12px",
                 }}
@@ -274,15 +282,13 @@ const Singin = () => {
                 sx={{
                   fontSize: "15px",
                   fontWeight: "300",
-                  "@media(max-width: 600px)": {
-                    width: "250px",
-                  },
+                  marginTop: "12px",
                 }}
               >
                 Fill in the fields below to register.{" "}
               </Typography>
             </Box>
-            <Box width={"100%"}>
+            <Box padding={2} width={"100%"}>
               <form
                 onSubmit={handleSubmitRegister}
                 style={{
@@ -359,6 +365,7 @@ const Singin = () => {
                     padding: "12px 12px",
                     color: "#fff",
                     background: "blue",
+                    marginBottom: "12px",
                   }}
                 >
                   {loading ? (
@@ -471,15 +478,13 @@ const Singin = () => {
             sx={{
               fontSize: "15px",
               fontWeight: "300",
-              "@media(max-width: 600px)": {
-                width: "250px",
-              },
+              marginTop: "12px",
             }}
           >
             Fill in the fields below to log in.{" "}
           </Typography>
         </Box>
-        <Box width={"100%"}>
+        <Box padding={2} width={"100%"}>
           <form
             onSubmit={handleSubmitLogin}
             style={{
@@ -546,6 +551,7 @@ const Singin = () => {
                 cursor: "pointer",
                 width: "100%",
                 textAlign: "center",
+                marginTop: "12px",
               }}
             >
               Sing Up

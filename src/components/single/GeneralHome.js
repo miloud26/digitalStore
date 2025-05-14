@@ -1,6 +1,6 @@
 import { Box, Button, Typography } from "@mui/material";
 import { Link } from "react-router-dom";
-import React from "react";
+
 import imageHero from "../../img/hero.png";
 import Platforms from "../../img/platforms.png";
 import Digital01 from "../../img/INO02.png";
@@ -127,9 +127,6 @@ const GeneralHome = () => {
                   "@media(max-width:900px)": {
                     fontSize: "25px",
                   },
-                  "@media(max-width:700px)": {
-                    fontSize: "20px",
-                  },
                 }}
               >
                 Power Your Brand with Premium Ad Accounts & Digital Solutions
@@ -145,11 +142,7 @@ const GeneralHome = () => {
                     fontSize: "18px",
                   },
                   "@media(max-width:1100px)": {
-                    fontSize: "15px",
-                  },
-
-                  "@media(max-width:700px)": {
-                    fontSize: "13px",
+                    fontSize: "16px",
                   },
                 }}
               >
@@ -278,9 +271,6 @@ const GeneralHome = () => {
                   "@media(max-width:900px)": {
                     fontSize: "25px",
                   },
-                  "@media(max-width:700px)": {
-                    fontSize: "20px",
-                  },
                 }}
               >
                 Grow with Ad Accounts & Digital Services Digital Products{" "}
@@ -296,11 +286,7 @@ const GeneralHome = () => {
                     fontSize: "18px",
                   },
                   "@media(max-width:1100px)": {
-                    fontSize: "15px",
-                  },
-
-                  "@media(max-width:700px)": {
-                    fontSize: "13px",
+                    fontSize: "16px",
                   },
                 }}
               >
@@ -351,7 +337,7 @@ const GeneralHome = () => {
               padding: "005px 30px",
             },
             "@media(max-width:500px)": {
-              padding: "2px 10px",
+              padding: "0px",
             },
           }}
         >
@@ -397,9 +383,6 @@ const GeneralHome = () => {
                   "@media(max-width:900px)": {
                     fontSize: "25px",
                   },
-                  "@media(max-width:700px)": {
-                    fontSize: "20px",
-                  },
                 }}
               >
                 Your One-Stop Shop for Social Media Growth & Digital Services{" "}
@@ -415,11 +398,7 @@ const GeneralHome = () => {
                     fontSize: "18px",
                   },
                   "@media(max-width:1100px)": {
-                    fontSize: "15px",
-                  },
-
-                  "@media(max-width:700px)": {
-                    fontSize: "13px",
+                    fontSize: "16px",
                   },
                 }}
               >
@@ -485,10 +464,7 @@ const GeneralHome = () => {
                       fontSize: "17px",
                     },
                     "@media(max-width:900px)": {
-                      fontSize: "15px",
-                    },
-                    "@media(max-width:700px)": {
-                      fontSize: "13",
+                      fontSize: "16px",
                     },
                   }}
                 >
@@ -505,11 +481,7 @@ const GeneralHome = () => {
                       fontSize: "13px",
                     },
                     "@media(max-width:1100px)": {
-                      fontSize: "11px",
-                    },
-
-                    "@media(max-width:700px)": {
-                      fontSize: "9px",
+                      fontSize: "14px",
                     },
                   }}
                 >
@@ -564,7 +536,7 @@ const GeneralHome = () => {
                       fontSize: "15px",
                     },
                     "@media(max-width:700px)": {
-                      fontSize: "13",
+                      fontSize: "16",
                     },
                   }}
                 >
@@ -581,11 +553,7 @@ const GeneralHome = () => {
                       fontSize: "13px",
                     },
                     "@media(max-width:1100px)": {
-                      fontSize: "11px",
-                    },
-
-                    "@media(max-width:700px)": {
-                      fontSize: "9px",
+                      fontSize: "14px",
                     },
                   }}
                 >
@@ -636,10 +604,7 @@ const GeneralHome = () => {
                       fontSize: "17px",
                     },
                     "@media(max-width:900px)": {
-                      fontSize: "15px",
-                    },
-                    "@media(max-width:700px)": {
-                      fontSize: "13",
+                      fontSize: "16px",
                     },
                   }}
                 >
@@ -656,11 +621,7 @@ const GeneralHome = () => {
                       fontSize: "13px",
                     },
                     "@media(max-width:1100px)": {
-                      fontSize: "11px",
-                    },
-
-                    "@media(max-width:700px)": {
-                      fontSize: "9px",
+                      fontSize: "14px",
                     },
                   }}
                 >
@@ -695,7 +656,7 @@ const GeneralHome = () => {
               padding: "005px 30px",
             },
             "@media(max-width:500px)": {
-              padding: "2px 10px",
+              padding: "0px",
             },
           }}
         >
@@ -741,9 +702,6 @@ const GeneralHome = () => {
                   "@media(max-width:900px)": {
                     fontSize: "25px",
                   },
-                  "@media(max-width:700px)": {
-                    fontSize: "20px",
-                  },
                 }}
               >
                 Flexible, Secure, and Global Payment Solutions for Your
@@ -760,11 +718,7 @@ const GeneralHome = () => {
                     fontSize: "18px",
                   },
                   "@media(max-width:1100px)": {
-                    fontSize: "15px",
-                  },
-
-                  "@media(max-width:700px)": {
-                    fontSize: "13px",
+                    fontSize: "16px",
                   },
                 }}
               >
@@ -830,10 +784,7 @@ const GeneralHome = () => {
                       fontSize: "17px",
                     },
                     "@media(max-width:900px)": {
-                      fontSize: "15px",
-                    },
-                    "@media(max-width:700px)": {
-                      fontSize: "13",
+                      fontSize: "16px",
                     },
                   }}
                 >
@@ -850,11 +801,7 @@ const GeneralHome = () => {
                       fontSize: "13px",
                     },
                     "@media(max-width:1100px)": {
-                      fontSize: "11px",
-                    },
-
-                    "@media(max-width:700px)": {
-                      fontSize: "9px",
+                      fontSize: "14px",
                     },
                   }}
                 >
@@ -907,10 +854,7 @@ const GeneralHome = () => {
                       fontSize: "17px",
                     },
                     "@media(max-width:900px)": {
-                      fontSize: "15px",
-                    },
-                    "@media(max-width:700px)": {
-                      fontSize: "13",
+                      fontSize: "16px",
                     },
                   }}
                 >
@@ -927,11 +871,7 @@ const GeneralHome = () => {
                       fontSize: "13px",
                     },
                     "@media(max-width:1100px)": {
-                      fontSize: "11px",
-                    },
-
-                    "@media(max-width:700px)": {
-                      fontSize: "9px",
+                      fontSize: "14px",
                     },
                   }}
                 >
@@ -982,10 +922,7 @@ const GeneralHome = () => {
                       fontSize: "17px",
                     },
                     "@media(max-width:900px)": {
-                      fontSize: "15px",
-                    },
-                    "@media(max-width:700px)": {
-                      fontSize: "13",
+                      fontSize: "16px",
                     },
                   }}
                 >
@@ -1002,11 +939,7 @@ const GeneralHome = () => {
                       fontSize: "13px",
                     },
                     "@media(max-width:1100px)": {
-                      fontSize: "11px",
-                    },
-
-                    "@media(max-width:700px)": {
-                      fontSize: "9px",
+                      fontSize: "14px",
                     },
                   }}
                 >
@@ -1042,7 +975,7 @@ const GeneralHome = () => {
               padding: "005px 30px",
             },
             "@media(max-width:500px)": {
-              padding: "2px 10px",
+              padding: "2px",
             },
           }}
         >
@@ -1086,10 +1019,7 @@ const GeneralHome = () => {
                     fontSize: "26px",
                   },
                   "@media(max-width:900px)": {
-                    fontSize: "25px",
-                  },
-                  "@media(max-width:700px)": {
-                    fontSize: "20px",
+                    fontSize: "26px",
                   },
                 }}
               >
@@ -1106,11 +1036,7 @@ const GeneralHome = () => {
                     fontSize: "18px",
                   },
                   "@media(max-width:1100px)": {
-                    fontSize: "15px",
-                  },
-
-                  "@media(max-width:700px)": {
-                    fontSize: "13px",
+                    fontSize: "16px",
                   },
                 }}
               >
@@ -1135,6 +1061,7 @@ const GeneralHome = () => {
             }}
           >
             <Box
+              marginBottom={"8px"}
               width={"30%"}
               padding={"10px"}
               borderRadius={"8px"}
@@ -1176,10 +1103,7 @@ const GeneralHome = () => {
                       fontSize: "17px",
                     },
                     "@media(max-width:900px)": {
-                      fontSize: "15px",
-                    },
-                    "@media(max-width:700px)": {
-                      fontSize: "13",
+                      fontSize: "16px",
                     },
                   }}
                 >
@@ -1196,11 +1120,7 @@ const GeneralHome = () => {
                       fontSize: "13px",
                     },
                     "@media(max-width:1100px)": {
-                      fontSize: "11px",
-                    },
-
-                    "@media(max-width:700px)": {
-                      fontSize: "9px",
+                      fontSize: "14px",
                     },
                   }}
                 >
@@ -1211,6 +1131,7 @@ const GeneralHome = () => {
               </Box>
             </Box>
             <Box
+              marginBottom={"8px"}
               width={"30%"}
               padding={"10px"}
               borderRadius={"8px"}
@@ -1253,10 +1174,7 @@ const GeneralHome = () => {
                       fontSize: "17px",
                     },
                     "@media(max-width:900px)": {
-                      fontSize: "15px",
-                    },
-                    "@media(max-width:700px)": {
-                      fontSize: "13",
+                      fontSize: "16px",
                     },
                   }}
                 >
@@ -1273,11 +1191,7 @@ const GeneralHome = () => {
                       fontSize: "13px",
                     },
                     "@media(max-width:1100px)": {
-                      fontSize: "11px",
-                    },
-
-                    "@media(max-width:700px)": {
-                      fontSize: "9px",
+                      fontSize: "14px",
                     },
                   }}
                 >
@@ -1329,10 +1243,7 @@ const GeneralHome = () => {
                       fontSize: "17px",
                     },
                     "@media(max-width:900px)": {
-                      fontSize: "15px",
-                    },
-                    "@media(max-width:700px)": {
-                      fontSize: "13",
+                      fontSize: "16px",
                     },
                   }}
                 >
@@ -1349,11 +1260,7 @@ const GeneralHome = () => {
                       fontSize: "13px",
                     },
                     "@media(max-width:1100px)": {
-                      fontSize: "11px",
-                    },
-
-                    "@media(max-width:700px)": {
-                      fontSize: "9px",
+                      fontSize: "14px",
                     },
                   }}
                 >
@@ -1367,7 +1274,7 @@ const GeneralHome = () => {
         </Box>
 
         <Box
-          marginTop={"55px"}
+          marginTop={"5px"}
           color="#000"
           width={"100%"}
           backgroundColor="#0e062a"
@@ -1393,6 +1300,9 @@ const GeneralHome = () => {
                   background: "#0dffd8",
                   color: "#000",
                   marginRight: "12px",
+                  "@media(max-width:700px)": {
+                    marginBottom: "10px",
+                  },
                 }}
               >
                 Privacy Policy
@@ -1402,12 +1312,16 @@ const GeneralHome = () => {
               <Button
                 variant="contained"
                 sx={{
+                  "@media(max-width:700px)": {},
                   "&:hover": {
                     background: "#f2f2ff",
                   },
                   background: "#0dffd8",
                   color: "#000",
                   marginRight: "12px",
+                  "@media(max-width:700px)": {
+                    marginBottom: "10px",
+                  },
                 }}
               >
                 Return Policy

@@ -8,7 +8,7 @@ const Header = ({ title, subTitle, slug }) => {
           fontSize: "32px",
           fontWeight: "bold",
           marginBottom: "5",
-          "@media(max-width:600px)": { textAlign: "center" },
+          "@media(max-width:600px)": { textAlign: "center", fontSize: "22px" },
         }}
       >
         {title} / {subTitle}

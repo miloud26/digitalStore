@@ -37,11 +37,7 @@ const Sidebar = () => {
 
           "@media(max-width:900px)": {
             left: open ? "0px" : "-100%",
-            width: open ? "300px" : "",
-          },
-          "@media(max-width:600px)": {
-            left: open ? "0px" : "-100%",
-            width: open ? "300px" : "",
+            width: open ? "220px" : "",
           },
         }}
       >
@@ -65,6 +61,7 @@ const Sidebar = () => {
               sx={{
                 "@media(max-width:900px)": {
                   //display: "none",
+                  margin: "5px 8px 0px 0px",
                   display: `${open ? "block" : "none"}`,
                 },
               }}
@@ -190,7 +187,7 @@ const Sidebar = () => {
             sx={{
               "@media(max-width:900px)": {
                 justifyContent: "start",
-                marginLeft: "20px",
+                marginLeft: "6px",
               },
             }}
           >
@@ -199,6 +196,7 @@ const Sidebar = () => {
                 "@media(max-width:900px)": {
                   //display: "none",
                   display: `${open ? "block" : "none"}`,
+                  margin: "5px 8px 0px 0px",
                 },
               }}
             >
@@ -241,13 +239,14 @@ const Sidebar = () => {
           display: "none",
           "@media(max-width:900px)": {
             display: "Block",
+            marginLeft: "18px",
           },
         }}
       >
         <Button
           sx={{
             marginTop: "25px",
-            marginLeft: `${open ? "280px" : ""}`,
+            marginLeft: `${open ? "220px" : ""}`,
             transition: "1s",
           }}
           onClick={() => {

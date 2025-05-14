@@ -28,7 +28,7 @@ const PageServices = () => {
           paddingLeft: "40px",
         },
         "@media(max-width:600px)": {
-          padding: "60px 6px",
+          padding: "20px 1px 40px",
         },
       }}
     >
@@ -69,10 +69,7 @@ const PageServices = () => {
             padding: "015px 30px",
           },
           "@media(max-width:700px)": {
-            padding: "005px 20px",
-          },
-          "@media(max-width:500px)": {
-            padding: "2px 10px",
+            padding: "5px 2px",
           },
         }}
       >

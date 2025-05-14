@@ -31,7 +31,11 @@ body {
 .sidebar:hover {
   width: 270px !important;
 }
-
+@media (max-width: 700px) {
+  .sidebar:hover {
+    width: 220px !important;
+  }
+}
 .sidebar:hover .divCenter {
   justify-content: start;
   padding-left: 16px;

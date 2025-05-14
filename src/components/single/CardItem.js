@@ -57,12 +57,6 @@ const CardItem = ({ img, title, desc, link, price }) => {
               "@media(max-width:1100px)": {
                 fontSize: "17px",
               },
-              "@media(max-width:900px)": {
-                fontSize: "15px",
-              },
-              "@media(max-width:700px)": {
-                fontSize: "13",
-              },
             }}
           >
             {title}
@@ -74,15 +68,8 @@ const CardItem = ({ img, title, desc, link, price }) => {
               "@media(max-width:1500px)": {
                 fontSize: "15",
               },
-              "@media(max-width:1400px)": {
-                fontSize: "13px",
-              },
               "@media(max-width:1100px)": {
-                fontSize: "11px",
-              },
-
-              "@media(max-width:700px)": {
-                fontSize: "9px",
+                fontSize: "13px",
               },
             }}
           >
