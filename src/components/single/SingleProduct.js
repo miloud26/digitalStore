@@ -188,9 +188,7 @@ const SingleProduct = () => {
                       display: "block",
                       background: "#54b5e7",
                       color: "black",
-                      "@media(max-width:700px)": {
-                        marginBottom: "25px",
-                      },
+                      marginBottom: "25px",
 
                       marginTop: "25px",
                       boxShadow:
@@ -206,9 +204,7 @@ const SingleProduct = () => {
                       display: "block",
                       background: "#54b5e7",
                       color: "black",
-                      "@media(max-width:700px)": {
-                        marginBottom: "25px",
-                      },
+                      marginBottom: "25px",
 
                       marginLeft: "12px",
                       marginTop: "25px",
