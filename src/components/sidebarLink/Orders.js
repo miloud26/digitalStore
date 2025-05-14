@@ -129,8 +129,14 @@ const Orders = () => {
     <Box id={"jh"}>
       <Box
         overflow={"hidden"}
-        sx={{ overflowX: "auto" }}
-        padding={"50px 5px 80px"}
+        sx={{
+          overflowX: "auto",
+          padding: "80px 80px 80px 120px",
+
+          "@media(max-width:900px)": {
+            padding: "80px 2px 80px 2px",
+          },
+        }}
       >
         <Box
           padding={3}

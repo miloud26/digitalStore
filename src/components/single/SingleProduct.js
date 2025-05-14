@@ -29,10 +29,9 @@ const SingleProduct = () => {
   return (
     <Box
       padding={5}
-      paddingTop="60px"
-      paddingLeft="40px"
       width={"100%"}
       sx={{
+        padding: "80px 80px 10px 120px",
         "@media(max-width:900px)": {
           paddingLeft: "40px",
         },
