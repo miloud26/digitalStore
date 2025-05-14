@@ -75,16 +75,14 @@ const CardItem = ({ img, title, desc, link, price }) => {
           >
             {desc}
           </Typography>
-          <Box>
+          <Box display={"flex"} justifyContent={"start"} alignItems={"center"}>
             {" "}
-            <Button
-              variant="contained"
+            <Box
+              padding={"6px 10px"}
+              borderRadius={"8px"}
               sx={{
-                "&:hover": {
-                  background: "#0dffd8",
-                },
-                background: "#0dffd8",
-                color: "#000",
+                display: "block",
+                background: "#54b5e7",
                 marginLeft: "12px",
                 marginTop: "25px",
                 boxShadow:
@@ -92,7 +90,7 @@ const CardItem = ({ img, title, desc, link, price }) => {
               }}
             >
               {price} $
-            </Button>
+            </Box>
             <Link to={link}>
               <Button
                 variant="contained"

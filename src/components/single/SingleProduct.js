@@ -177,18 +177,21 @@ const SingleProduct = () => {
               <></>
             ) : (
               <>
-                <Box>
-                  <Button
-                    variant="contained"
+                <Box
+                  display={"flex"}
+                  justifyContent={"start"}
+                  alignItems={"center"}
+                >
+                  <Box
+                    padding={"6px 10px"}
+                    borderRadius={"8px"}
                     sx={{
+                      display: "block",
+                      background: "#54b5e7",
+                      color: "black",
                       "@media(max-width:700px)": {
                         marginBottom: "25px",
                       },
-                      "&:hover": {
-                        background: "#0dffd8",
-                      },
-                      background: "#0dffd8",
-                      color: "#000",
 
                       marginTop: "25px",
                       boxShadow:
@@ -196,25 +199,24 @@ const SingleProduct = () => {
                     }}
                   >
                     {+item?.price} $
-                  </Button>
-                  <Button
-                    variant="contained"
+                  </Box>
+                  <Box
+                    padding={"6px 10px"}
+                    borderRadius={"8px"}
                     sx={{
+                      display: "block",
+                      background: "#54b5e7",
+                      color: "black",
                       "@media(max-width:700px)": {
                         marginBottom: "25px",
                       },
-                      "&:hover": {
-                        background: "#0dffd8",
-                      },
 
-                      background: "#0dffd8",
-                      color: "#000",
                       marginLeft: "12px",
                       marginTop: "25px",
                     }}
                   >
                     {item?.price * 250} DZD
-                  </Button>
+                  </Box>
                 </Box>
                 <Box>
                   {service === "courses" ? (
@@ -233,6 +235,7 @@ const SingleProduct = () => {
                             },
                           width: "50%",
                           "@media(max-width: 600px)": {
+                            width: "70%",
                             marginBottom: "25px",
                           },
                         }}
@@ -252,15 +255,14 @@ const SingleProduct = () => {
                         >
                           Total :{" "}
                         </span>
-                        <Button
-                          variant="contained"
+                        <Box
+                          padding={"6px 10px"}
+                          borderRadius={"8px"}
                           sx={{
                             display: "block",
-                            "&:hover": {
-                              background: "#0dffd8",
-                            },
-                            background: "#0dffd8",
-                            color: "#000",
+                            background: "#54b5e7",
+                            color: "black",
+
                             marginLeft: "12px",
                             marginTop: "25px",
                             boxShadow:
@@ -268,23 +270,21 @@ const SingleProduct = () => {
                           }}
                         >
                           {item?.price * quantity} $
-                        </Button>
-                        <Button
-                          variant="contained"
+                        </Box>
+                        <Box
+                          padding={"6px 10px"}
+                          borderRadius={"8px"}
                           sx={{
                             display: "block",
-                            "&:hover": {
-                              background: "#0dffd8",
-                            },
 
-                            background: "#0dffd8",
-                            color: "#000",
+                            background: "#54b5e7",
+                            color: "black",
                             marginLeft: "12px",
                             marginTop: "25px",
                           }}
                         >
                           {item?.price * 250 * quantity} DZD
-                        </Button>
+                        </Box>
                       </Box>
                     </>
                   )}
