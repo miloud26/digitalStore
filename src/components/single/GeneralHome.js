@@ -382,6 +382,7 @@ const GeneralHome = () => {
                   },
                   "@media(max-width:900px)": {
                     fontSize: "25px",
+                    paddingTop: "50px",
                   },
                 }}
               >
@@ -1312,7 +1313,6 @@ const GeneralHome = () => {
               <Button
                 variant="contained"
                 sx={{
-                  "@media(max-width:700px)": {},
                   "&:hover": {
                     background: "#f2f2ff",
                   },

@@ -1,5 +1,5 @@
 import { Box, Button, TextField, Typography } from "@mui/material";
-import React, { useState } from "react";
+import { useState } from "react";
 import Header from "../global/Header";
 import { Link, useParams } from "react-router-dom";
 import { data } from "../../data";
@@ -37,7 +37,7 @@ const SingleProduct = () => {
           paddingLeft: "40px",
         },
         "@media(max-width:600px)": {
-          padding: "60px 6px 90px",
+          padding: "60px 6px 140px",
         },
       }}
     >
@@ -181,6 +181,9 @@ const SingleProduct = () => {
                   <Button
                     variant="contained"
                     sx={{
+                      "@media(max-width:700px)": {
+                        marginBottom: "25px",
+                      },
                       "&:hover": {
                         background: "#0dffd8",
                       },
@@ -197,6 +200,9 @@ const SingleProduct = () => {
                   <Button
                     variant="contained"
                     sx={{
+                      "@media(max-width:700px)": {
+                        marginBottom: "25px",
+                      },
                       "&:hover": {
                         background: "#0dffd8",
                       },
@@ -450,7 +456,6 @@ const SingleProduct = () => {
             <Button
               variant="contained"
               sx={{
-                "@media(max-width:700px)": {},
                 "&:hover": {
                   background: "#f2f2ff",
                 },

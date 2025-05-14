@@ -28,7 +28,7 @@ const PageServices = () => {
           paddingLeft: "40px",
         },
         "@media(max-width:600px)": {
-          padding: "20px 1px 40px",
+          padding: "20px 1px 90px",
         },
       }}
     >

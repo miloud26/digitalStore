@@ -130,7 +130,7 @@ const Orders = () => {
       <Box
         overflow={"hidden"}
         sx={{ overflowX: "auto" }}
-        padding={"50px 5px 30px"}
+        padding={"50px 5px 80px"}
       >
         <Box
           padding={3}

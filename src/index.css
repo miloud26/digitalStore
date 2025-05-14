@@ -33,7 +33,7 @@ body {
 }
 @media (max-width: 700px) {
   .sidebar:hover {
-    width: 220px !important;
+    width: 250px !important;
   }
 }
 .sidebar:hover .divCenter {

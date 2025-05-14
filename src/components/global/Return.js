@@ -1,6 +1,5 @@
 import React from "react";
 import { Box, Typography, Container } from "@mui/material";
-import { Link } from "react-router-dom";
 
 const ReturnPolicy = () => {
   return (
@@ -55,7 +54,7 @@ const ReturnPolicy = () => {
         </Typography>
         <Typography sx={{ color: "#000" }}>
           To initiate a return, please contact our support team at Telagram:{" "}
-          <Link
+          <a
             style={{ color: "#000" }}
             href="https://t.me/Digital_dz"
             underline="hover"
@@ -63,7 +62,7 @@ const ReturnPolicy = () => {
             rel="noopener noreferrer"
           >
             @Digital_dz
-          </Link>
+          </a>
         </Typography>
       </Box>
     </Container>

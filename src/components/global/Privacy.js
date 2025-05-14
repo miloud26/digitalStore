@@ -1,4 +1,4 @@
-import { Box, Typography, Link, Container } from "@mui/material";
+import { Box, Typography, Container } from "@mui/material";
 
 const PrivacyPolicy = () => {
   return (
@@ -60,7 +60,7 @@ const PrivacyPolicy = () => {
         <Typography>
           If you have any questions about this policy, please contact us on
           Telegram:{" "}
-          <Link
+          <a
             style={{ color: "#000" }}
             href="https://t.me/Digital_dz"
             underline="hover"
@@ -68,7 +68,7 @@ const PrivacyPolicy = () => {
             rel="noopener noreferrer"
           >
             @Digital_dz
-          </Link>
+          </a>
         </Typography>
       </Box>
     </Container>

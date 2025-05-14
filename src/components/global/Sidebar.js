@@ -37,7 +37,8 @@ const Sidebar = () => {
 
           "@media(max-width:900px)": {
             left: open ? "0px" : "-100%",
-            width: open ? "220px" : "",
+            width: open ? "250px" : "",
+            paddingBottom: "30px",
           },
         }}
       >
@@ -246,7 +247,7 @@ const Sidebar = () => {
         <Button
           sx={{
             marginTop: "25px",
-            marginLeft: `${open ? "220px" : ""}`,
+            marginLeft: `${open ? "250px" : ""}`,
             transition: "1s",
           }}
           onClick={() => {
